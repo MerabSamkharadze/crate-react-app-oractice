@@ -1,0 +1,34 @@
+.Product-container {
+  max-width: 150px;
+  height: 400px;
+  padding: 15px 20px;
+  background-color: rgb(168, 236, 213);
+  display: block;
+}
+
+.Product-container img {
+  width: 100%;
+}
+
+.Product-container p {
+  font-size: 0.8rem;
+}
+
+.Product-container button {
+  background-color: rgb(232, 206, 171);
+  border: none;
+  color: red;
+  font-weight: 700;
+  padding: 10px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.2s;
+}
+.Product-container button:active {
+  transform: translateY(2px);
+}
+
+.Product-container button:hover {
+  background-color: rgba(232, 206, 171, 0.751);
+}
